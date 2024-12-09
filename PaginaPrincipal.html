@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash of Clans</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="Fotos/ClashLogo.png" alt="Logo de Clash of Clans" class="logo">
+        <nav>
+            <ul>
+                <li><a href="PaginaPrincipal.html">Inicio</a></li>
+                <li><a href="AcercaDe.html">Acerca del juego</a></li>
+                <li><a href="TropasEstrategia.html">Tropas y Estrategia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenido al mundo de Clash of Clans</h2>
+            <p>Explora estrategias, clanes y mucho más.</p>
+        </section>
+        <section>
+            <h2>Galería</h2>
+            <img src="Fotos/ClashCabecera.png" width="500" height="300" alt="Imagen del juego Clash of Clans" class="placeholder">
+            <img src="Fotos/Cabecera2.png" width="500" height="300" alt="Otra imagen del juego" class="placeholder">
+            <img src="Fotos/Cabecera3.jpg" width="500" height="300" alt="Otra imagen del juego" class="placeholder">
+        </section>
+        <section>
+            <h2>Formulario del Jugador</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="ayuntamiento">Nivel de Ayuntamiento:</label>
+                <input type="number" id="ayuntamiento" name="ayuntamiento" min="1" max="15" required>
+
+                <label for="copas">Máximo de Copas Alcanzadas:</label>
+                <input type="number" id="copas" name="copas" min="0" required>
+
+                <label for="estrategia">Estrategia Favorita:</label>
+                <textarea id="estrategia" name="estrategia" rows="4" placeholder="Describe tu estrategia favorita"></textarea>
+
+                <label>
+                    <input type="radio" id="ataque" name="preferencia" value="ataque"> Atacar
+                </label>
+                <br>
+                <label>
+                    <input type="radio" id="defensa" name="preferencia" value="defensa"> Defender
+                </label>
+                <br><br>
+                
+                <label>
+                    <input type="checkbox" id="recordatorio" name="recordatorio"> ¿Quieres recibir recordatorios por correo?
+                </label>
+                <br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Encuentra tu camino</h2>
+            <ul>
+                <li>Comienza desde cero.</li>
+                <li>Construye tu ejército.</li>
+                <li>Conquista aldeas enemigas.</li>
+            </ul>
+            <p>Encuentra más información en la sección de <a href="TropasEstrategia.html">Tropas y Estrategia</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Clash of Clans Fanpage. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
